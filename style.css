@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: 'Epilogue', sans-serif;
+}
+.containe{
+    width: 1440px;
+    max-width: 90%;
+margin: 0 auto;}
+#agency{
+    background-color: #FDF0E9;;
+    padding: 5rem 0;
+    
+   
+   
+}
+
+.title>h1{
+    margin-top:25px;
+    font-weight: 800;
+font-size: 40px;
+line-height: 18px;
+color: #391400;
+
+}
+.title>span{
+    color: #EF6D58;
+    font-weight: 400;
+font-size: 14px;
+text-transform: uppercase;
+}
+.agency-cards{
+    display: flex;
+    margin-top: 35px;
+
+}
+.agency-card{
+    border: 1px solid #F3D1BF;
+    width: 400px;
+    padding: 2rem 1rem 5rem 2rem;
+}
+.agency-card>h4{
+    margin-top: 31px;
+    color: #391400;
+    font-weight: 700;
+    font-size: 18px;
+    
+}
+.agency-card>p{
+    font-size: 1rem;
+    margin-top: 20px;
+    color:  rgba(57, 20, 0, 0.64);
+}
+.agency-card>a{
+    display: inline-block;
+    margin-top: 36px;
+    color: #391400;
+    font-size: 13px;
+    font-weight: 600;
+}
+.oval {
+    background-color: #EF6C57;
+    width:65px ;
+    border-radius: 50%;
+    
+}
+.oval>div{
+    padding: 0.5rem 0.5rem;
+    text-align: center;
+}
+.oval>div>img{
+width: 25px;
+}
+
+/*quiz2 start*/
+
+.keyboard{
+    background-image: url("/image/Bitmap0.1.png");
+    width: 1170px;
+    height: 720px;
+   background-position :center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 28px;
+    position: relative;
+    
+}
+.keyboard>div,
+.bottom1>div,
+.bottom2>div,
+.bottom3>div,
+.bottom4>div{
+position: absolute;
+bottom: 48px;
+
+left: 48px;
+}
+.keyboard>div>h4,
+.bottom1>div>h4,
+.bottom2>div>h4,
+.bottom3>div>h4,
+.bottom4>div>h4{
+    font-weight: 800;
+font-size: 50px;
+line-height: 64px;
+color: #ffff;
+}
+.link{
+    background-color: #ffff;
+    border-radius: 19px;
+    text-align: center;
+    width: 120px;
+    margin-bottom: 20px;
+}
+.link>a{
+    font-weight: 400;
+font-size: 16px;
+line-height: 32px;
+color: #391400;
+}
+.sofa-work{
+    display: flex;
+    gap:28px;
+    margin-bottom: 28px;
+}
+.bottom1{
+    background-image: url("/image/Bitmap.png");
+    width: 570px;
+    height: 416px;
+    position: relative;
+}
+
+.bottom2{
+    background-image: url("/image/Bitmap\ \(1\).png");
+    width:570px ;
+    height:416px ;
+    position: relative;
+}
+.dedone-hand{
+    display: flex;
+    gap: 28px;
+}
+.bottom3{
+    background-image: url("/image/Bitmap\ \(2\).png");
+    width:570px ;
+    height:416px ;
+    position: relative;
+}
+.bottom4{
+    background-image: url("/image/Bitmap\ \(3\).png");
+    width:570px ;
+    height:416px ;
+    position: relative;
+}
